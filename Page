@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">MySite</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm <span>Your Name</span> 👋</h2>
+    <p>A robotics / AI enthusiast passionate about building cool things.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m currently working on humanoid robotics, reinforcement learning, 
+      and simulation-to-real transfer. I enjoy designing both hardware and software solutions.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>ToddlerBot</h3>
+      <p>Open-source humanoid robot platform for loco-manipulation.</p>
+      <a href="https://github.com/your-username/toddlerbot" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>RL2 Experiments</h3>
+      <p>Exploration of meta-RL and system identification in locomotion.</p>
+      <a href="https://github.com/your-username/rl2-project" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. Built with ❤️ using GitHub Pages.</p>
+  </footer>
+</body>
+</html>
